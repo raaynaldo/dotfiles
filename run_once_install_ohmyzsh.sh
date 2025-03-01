@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
   echo "Getting ohmyz.sh"
