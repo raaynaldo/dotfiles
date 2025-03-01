@@ -1,15 +1,20 @@
-# Raynaldo's Dotfiles
+# Raynaldo's dotfiles
 
 These dotfiles are managed using [chezmoi](https://www.chezmoi.io/)
 
 ## Installation
 
-Install chezmoi with homebrew.
+Install chezmoi and pull from github
 ```
-brew install chezmoi
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply raaynaldo
 ```
 
-Initialize chezmoi with current repo. 
+How to edit
 ```
-chezmoi init git@github.com:raaynaldo/dotfiles.git
+chezmoi edit
+```
+
+Don't forget to apply after edit
+```
+chezmoi apply
 ```
